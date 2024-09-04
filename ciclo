@@ -1,0 +1,27 @@
+let soma = 2400; // Supondo que a soma dos 12 valores anteriores seja 2400 (200 * 12)
+let contador = 12;
+let continuar = true;
+
+while (continuar) {
+    // Simulação da inserção do valor 200
+    let valor = 200;
+
+    // Atualiza a soma e o contador
+    soma += valor;
+    contador++;
+
+    // Calcula a média
+    let media = soma / contador;
+
+    // Exibe os resultados
+    console.log(`Valor inserido: ${valor}`);
+    console.log(`Soma atual: ${soma}`);
+    console.log(`Média atual: ${media}`);
+    alert(`Valor inserido: ${valor}\nSoma atual: ${soma}\nMédia atual: ${media}`);
+
+    // Para a simulação, vamos sair do loop após uma iteração
+    continuar = false;
+}
+
+console.log("Operação finalizada.");
+alert("Operação finalizada.");
